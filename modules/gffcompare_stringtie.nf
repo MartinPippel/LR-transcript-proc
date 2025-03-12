@@ -2,7 +2,7 @@ process gffcompare_stringtie {
 
     label 'gffcompare_stringtie'
     label 'small'
-    container = 'docker://agatasm/gffcompare:0.12.9'
+    container = 'docker://community.wave.seqera.io/library/gffcompare_gffread:0ec3e114ccf09e35'
 
     input:
     path stringtie_merged

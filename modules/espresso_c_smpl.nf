@@ -2,7 +2,7 @@ process espresso_c_smpl {
     
     label 'espresso_c_smpl'
 
-    container = 'docker://agatasm/espresso-1.4.0:perl'
+    container = 'docker://community.wave.seqera.io/library/espresso_perl:7d848c582b3ebb18'
 
     tag {smpl_id}
 

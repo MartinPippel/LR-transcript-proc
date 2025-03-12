@@ -2,7 +2,7 @@ process sqanti_qc {
 
     label 'sqanti_qc'
     label 'mid_mem'
-    container = 'docker://pippel/squanti3:v5.2.1'
+    container = 'docker://anaconesalab/sqanti3:5.3.6-conda-fix'
 
     input:
     path espresso_gtf_ch

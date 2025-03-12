@@ -2,7 +2,7 @@ process map_genome {
 
     label 'map_genome'
     label 'mid_mem'
-    container = 'docker://nanozoo/minimap2:2.28--9e3bd01'
+    container = 'docker://community.wave.seqera.io/library/minimap2_samtools:03e1e7cf6ec6695d'
 
     tag {smpl_id}
 

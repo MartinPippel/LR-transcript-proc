@@ -2,7 +2,7 @@ process espresso_s_input {
 
     label 'espresso_s_input'
     
-    container = 'docker://agatasm/espresso-1.4.0:perl'
+    container = 'community.wave.seqera.io/library/espresso_perl:7d848c582b3ebb18'
 
     input:
     val(args)

@@ -12,7 +12,7 @@ process preprocess_reads {
     label 'preprocess_reads'
     label 'wftrx'
     tag {smpl_id}
-    container = 'docker://ontresearch/wf-transcriptomes:sha203915eb4b4dd444cb2e845d0b9f7814e26b7b5c'
+    container = 'docker://ontresearch/wf-transcriptomes:shac733d952a14257cf3c5c5d5d44c6aed84d5fe5a1'
     
     input:
     tuple path(path2fastq), val(smpl_id)
